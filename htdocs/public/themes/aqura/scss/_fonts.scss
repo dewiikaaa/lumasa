@@ -1,0 +1,49 @@
+// fonts
+
+// Japan fonts list
+/*
+http://g-azami.tumblr.com/
+v1.0 | 20140213
+License: none (public domain)
+*/
+
+
+/* Minimal Set for Latest Browsers（最新ブラウザ向けミニマルセット） */
+
+$gothic : Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+ /* ゴシック体 */
+
+$mincho : "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+ /* 明朝体 */
+
+$mono : Osaka-mono, "MS Gothic", monospace;
+ /* 等幅書体 */
+
+$hiraginoMaruGothic : "Hiragino Maru Gothic ProN", Meiryo, fantasy;
+ /* OS X限定 丸ゴシック体 */
+
+
+/* Complete Set for Legacy Browsers（旧ブラウザ対応フルセット） */
+
+$gothic-legacy : Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+ /* ゴシック体 */
+
+$mincho-legacy : "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+ /* 明朝体 */
+
+$mono-legacy : "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+ /* 等幅書体 */
+
+$hiraginoMaruGothic-legacy : "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", Meiryo, fantasy;
+ /* OS X限定 丸ゴシック体 */
+
+
+/* Sans Serif Set for Legacy Browsers and Android（Andoroid対応付きゴシック体セット） */
+
+$gothic-mobile : Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+
+$gothic-helvetica: Helvetica, Arial, Roboto, "Droid Sans", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, sans-serif;
+// Google webfonts
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans:400,700';
+
+$noto : 'Noto Sans', sans-serif;

@@ -1,0 +1,13 @@
+@import 'breakpoint';
+@import 'fonts';
+@import 'variables';
+@import 'global';
+@import 'home';
+
+a {
+  color: dimgray;
+  &:hover,
+  &:focus {
+    color: black;
+  }
+}

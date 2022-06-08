@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/*
+http://g-azami.tumblr.com/
+v1.0 | 20140213
+License: none (public domain)
+*/
+/* Minimal Set for Latest Browsers（最新ブラウザ向けミニマルセット） */
+/* ゴシック体 */
+/* 明朝体 */
+/* 等幅書体 */
+/* OS X限定 丸ゴシック体 */
+/* Complete Set for Legacy Browsers（旧ブラウザ対応フルセット） */
+/* ゴシック体 */
+/* 明朝体 */
+/* 等幅書体 */
+/* OS X限定 丸ゴシック体 */
+/* Sans Serif Set for Legacy Browsers and Android（Andoroid対応付きゴシック体セット） */
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans:400,700';
+html, body {
+  font-family: Helvetica, Arial, Roboto, "Droid Sans", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, sans-serif;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.btn-default {
+  background-color: transparent;
+  border-color: #2a3643;
+  color: #2a3643;
+}
+.btn-default.white {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.btn-default:hover, .btn-default:focus {
+  border-color: #c25239;
+  background-color: #c25239;
+  color: #ffffff;
+}
+
+.navbar-default {
+  background: #2a3643;
+  color: #ffffff;
+  border-bottom: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.navbar-default.home {
+  background: rgba(42, 54, 67, 0);
+}
+.navbar-default.affix {
+  background: #2a3643;
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+  color: #c25239;
+}
+.navbar-default .navbar-collapse .navbar-nav > li {
+  margin-top: 9px;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a {
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+}
+.navbar-default .navbar-collapse .navbar-nav > li > a:hover, .navbar-default .navbar-collapse .navbar-nav > li > a:focus {
+  color: #c25239;
+}
+.navbar-default .navbar-collapse .navbar-nav > li.active > a {
+  background-color: #c25239;
+}
+.navbar-default .navbar-collapse .navbar-nav > li.active > a:hover, .navbar-default .navbar-collapse .navbar-nav > li.active > a:focus {
+  color: #ffffff;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.carousel .carousel-inner > .item {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.main-section {
+  padding-top: 50px;
+}
+.main-section.home {
+  padding-top: 0;
+}
+
+.page-hero {
+  padding: 50px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.page-hero h2 {
+  font-weight: bold;
+}
+
+.page-content {
+  padding: 30px 0;
+}
+
+.main-footer {
+  padding: 30px 0;
+  background-color: #2a3643;
+  color: #ffffff;
+}
+.main-footer a {
+  color: #ffffff;
+}
+.main-footer a.social-link {
+  font-size: 20px;
+}
+
+.feature-block,
+.testimony-block,
+.contact-block {
+  padding: 30px 0;
+}
+.feature-block h2,
+.testimony-block h2,
+.contact-block h2 {
+  font-weight: 100;
+}
+
+.feature-block {
+  background-color: #2a3643;
+  color: #ffffff;
+}
+
+a.feature-link {
+  text-decoration: none;
+  margin: 30px 0;
+  padding: 15px 0;
+  color: #ffffff;
+}
+a.feature-link i, a.feature-link .fa {
+  font-size: 90px;
+}
+a.feature-link span {
+  font-size: 20px;
+  display: block;
+  margin-top: 15px;
+}
+a.feature-link:hover, a.feature-link:focus {
+  color: #c25239;
+}
+
+.testimony-block {
+  background-color: #c25239;
+}
+
+a.testimony-link {
+  height: 200px;
+  margin: 30px 0;
+  padding: 15px 0;
+  color: #ffffff;
+  background-position: center center;
+  background-size: cover;
+  vertical-align: middle;
+}
+a.testimony-link .testi-logo {
+  display: block;
+  margin-bottom: 15px;
+}
+a.testimony-link .testi-text {
+  display: block;
+}
+.contact-block {
+  background-color: #ffffff;
+}
+.contact-block h2 {
+  margin-bottom: 30px;
+}
+.contact-block .btn-contact {
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+a {
+  color: dimgray;
+}
+a:hover, a:focus {
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */
