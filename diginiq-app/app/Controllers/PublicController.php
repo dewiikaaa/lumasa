@@ -30,7 +30,7 @@ class PublicController extends AuthController
 	 *
 	 * @var stdClass
 	 */
-	public $themes = null;
+	public $themes = '';
 
 	/**
 	 * Constructor.
@@ -39,6 +39,7 @@ class PublicController extends AuthController
 	{
 		// Do Not Edit This Line
 		parent::initController($request, $response, $logger);
+		$this->themes = Themes::init(new \Config\Lumasa());
 	}
 
 }

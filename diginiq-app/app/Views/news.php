@@ -16,7 +16,7 @@
           </tr>
         </thead>
         <tbody>
-		<?php foreach ($news as $i => $row) : 
+		<?php foreach ($news as $i => $row) :
 			$title   = $row['title'];
 			$content = $row['content'];
 		?>

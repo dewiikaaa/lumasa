@@ -31,8 +31,16 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Auth::login');
-
+//$routes->get('/', 'Auth::login');
+$routes->get('/', '\App\Controllers\Home');
+$routes->add('/about', '\App\Controllers\Home::about');
+$routes->add('/services', '\App\Controllers\Home::services');
+$routes->add('/catalogue', '\App\Controllers\Home::catalogue');
+$routes->add('/faq', '\App\Controllers\Home::faq');
+$routes->add('/updates/', '\App\Controllers\Home::updates');
+$routes->add('/updates/(:any)', '\App\Controllers\Home::updates/$1');
+$routes->add('/updates/(:any)/(:any)', '\App\Controllers\Home::updates/$1/$2');
+$routes->add('/contact', '\App\Controllers\Home::contact');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -23,7 +23,7 @@
     <header class="page-header">
       <!-- Image and text -->
 	  <?php $auth = new \Arifrh\Auth\Auth();
-	  if ($auth->isLogged()) : 
+	  if ($auth->isLogged()) :
 		$uri = current_url();
 
 		$homeUrl        = site_url('home');

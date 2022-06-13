@@ -13,13 +13,13 @@ class DummyUser extends \CodeIgniter\Database\Seeder
 	{
 		$config = \CodeIgniter\Config\Factories::config('Auth');
 
-		$adminPassword = 'admin@DIGINIQ#789';
+		$adminPassword = 'admin@LUMASA#789';
 
 		$adminPassword = password_hash($adminPassword, PASSWORD_BCRYPT, ['cost' => $config->bcryptCost]);
 
 		$sql = "
 		INSERT INTO " . $config->userTable . " (`email`, `password`, `group_id`, `role_id`, `active`) VALUES
-			('admin@diginiq.net', '" . $adminPassword . "', 1, 1, 1);
+			('admin@lumasa.biz', '" . $adminPassword . "', 1, 1, 1);
 		";
 
 		$this->db->query($sql);

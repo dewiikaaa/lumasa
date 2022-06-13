@@ -45,7 +45,7 @@ class AuthController extends Controller
 
 		\Config\Services::language($this->auth->config->siteLanguage);
 
-		$this->themes = Themes::init(new \Config\Aqura());
+		$this->themes = Themes::init(new \Config\Lumasa());
 	}
 
 	/**
